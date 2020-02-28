@@ -1,0 +1,19 @@
+.jobwidgetwrapper {
+    padding: 72px;
+}
+.title {
+    padding: 38px;
+    border-bottom: 1px solid #0000004a;
+}
+.title a {
+    text-decoration: none;
+    margin-right: 19px;
+}
+.testlinktitle {
+    float: right;
+    background: #7c3688;
+    color: white;
+    padding: 9px;
+    font-size: 21px;
+    border-radius: 7px;
+}

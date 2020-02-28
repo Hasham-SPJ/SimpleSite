@@ -1,0 +1,27 @@
+.linkslistbtn {
+    padding: 0px;
+    text-align: center;
+    margin-top: 12%;
+}
+.linkslistbtn li {
+    display: inline-block;
+    margin-right: 25px;
+    min-width: 198px;
+}
+.linkslistbtn li a {
+    display: block;
+    width: 125px;
+    text-decoration: none;
+    color: black;
+    background: #9be248;
+    height: 34px;
+    line-height: 2;
+    border-radius: 3px;
+    text-transform: uppercase;
+    padding: 7px;
+    margin-right: 42px;
+}
+.linkslistbtn li a:hover {
+    border: 1px solid black;
+    padding: 6px;
+}

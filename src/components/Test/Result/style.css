@@ -1,0 +1,11 @@
+.resultlist li {
+    list-style: none;
+    font-size: 20px;
+}
+.resultlist li span {
+    margin-left: 154px;
+    font-weight: 500;
+    display: inline-block;
+    width: 155px;
+    text-align: right;
+}
