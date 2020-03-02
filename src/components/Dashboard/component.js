@@ -11,6 +11,7 @@ import Divider from '@material-ui/core/Divider';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import HomeIcon from '@material-ui/icons/Home';
+import AccountBoxIcon from "@material-ui/icons/AccountBox"
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 import ListItem from '@material-ui/core/ListItem';
@@ -76,13 +77,20 @@ export default function Dashboard() {
         </div>
         <Divider />
         <List>
-            <ListItem button>
-              <ListItemIcon>{<HomeIcon />}</ListItemIcon>
-              <Link href="/">
-                    Home
+          <ListItem button>
+            <ListItemIcon>{<HomeIcon />}</ListItemIcon>
+            <Link href="/">
+              Home
               </Link>
-                
-            </ListItem>
+          </ListItem>
+          <ListItem button>
+            <ListItemIcon>{<AccountBoxIcon />}</ListItemIcon>
+            <Link href="http://candidateportal.us-east-2.elasticbeanstalk.com/" target="_blank">
+              Log In
+              </Link>
+
+          </ListItem>
+
         </List>
       </Drawer>
     </div>
