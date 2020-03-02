@@ -4,23 +4,23 @@ import { Link } from "@material-ui/core";
 
 import "./style.css";
 
-class DashboardOptionButtons extends Component {
+class AgoraDashboardOptionButtons extends Component {
     render() {
         return (
             <>
                 <Typography variant="h3" component="h1" align="center">
-                    Welcome To Dashboard
+                    AGORA
                 </Typography>
 
                 <Grid container spacing={3} className="optionswrapper">
                     <Grid item xs={2}>
-                        <Link href="http://www.specialisedjobs.com/" target="_blank">Visit Website</Link>
+                        <Link href="/agora/flow">Inser new Data</Link>
                     </Grid>
                     <Grid item xs={2}>
-                        <Link href="/jobai">Job Ai</Link>
+                        <Link href="#">View Data</Link>
                     </Grid>
                     <Grid item xs={2}>
-                        <Link href="/agora">Agora</Link>
+                        <Link href="#">Statistics</Link>
                     </Grid>
                 </Grid>
             </>
@@ -28,4 +28,4 @@ class DashboardOptionButtons extends Component {
     }
 }
 
-export default DashboardOptionButtons;
+export default AgoraDashboardOptionButtons;

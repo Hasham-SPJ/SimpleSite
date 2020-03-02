@@ -6,22 +6,29 @@ import AGORA from "./Agora/component";
 import TestPage from "./Test/component";
 import EITTestPage from "./Test/EIT/component";
 import ResultPage from  "./Test/Result/component";
+import DashboardOptions from "./Dashboard/OptionButtons/component";
+import AgoraDashboardOptionButtons from "./Agora/Dashboard/component";
 
+import "./style.css";
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Router>
-              <Switch>
-                  <Route exact path={`/`} component={Dashboard}/>
-                  <Route exact path={`/jobai`} component={JobAI}/>
-                  <Route exact path={`/agora`} component={AGORA}/>
-                  <Route exact path={`/test`} component={TestPage}/>
-                  <Route exact path={`/test/eit`} component={EITTestPage}/>
-                  <Route exact path={`/result`} component={ResultPage}/>
-              </Switch>
-        </Router>
-      </div>
+      <>
+        <Dashboard />
+        <div className="App">
+          <Router>
+                <Switch>
+                    <Route exact path={`/`} component={DashboardOptions}/>
+                    <Route exact path={`/jobai`} component={JobAI}/>
+                    <Route exact path={`/agora`} component={AgoraDashboardOptionButtons}/>
+                    <Route exact path={`/agora/flow`} component={AGORA}/>
+                    <Route exact path={`/test`} component={TestPage}/>
+                    <Route exact path={`/test/eit`} component={EITTestPage}/>
+                    <Route exact path={`/result`} component={ResultPage}/>
+                </Switch>
+          </Router>
+        </div>
+      </>
     );
   }
 }

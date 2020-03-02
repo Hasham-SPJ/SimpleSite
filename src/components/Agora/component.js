@@ -33,7 +33,7 @@ class AGORA extends Component {
         ];
         return (
             <>
-                <h1 className="title"><a href="/">{"<"}</a>AGORA<a href="/test" className="testlinktitle"> Start Test </a></h1>
+                <h1 className="title"><a href="/agora">{"<"}</a>AGORA<a href="/test" className="testlinktitle"> Start Test </a></h1>
                 <div class="jobwidgetwrapper">
                     {
                         itemsList.map(item => (

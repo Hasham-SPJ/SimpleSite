@@ -14,7 +14,7 @@ class ResultPage extends Component {
                         <li>Duration<span>:1000</span></li>
                         <li>Total Questions<span>:1000</span></li>
                         <li>Total Marks<span>:1000</span></li>
-                        <li>Auto Evaluation<span>:1000</span></li>
+                        <li>Auto Evaluation<span>:100</span></li>
                     </ul>
                 </div>
             </>
