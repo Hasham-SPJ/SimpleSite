@@ -6,7 +6,7 @@ class EITTestPage extends Component {
     render() {
         return (
             <>
-                <h1 className="dashboardtitle" >Test Your Emotional Intelligence</h1>
+                {/* <h1 className="dashboardtitle" >Test Your Emotional Intelligence</h1> */}
                 <div className="eitpagewrapper">
                     <QuestionBox />
                 </div>

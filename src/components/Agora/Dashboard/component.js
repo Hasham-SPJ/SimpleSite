@@ -8,7 +8,7 @@ class AgoraDashboardOptionButtons extends Component {
     render() {
         return (
             <>
-                <Typography variant="h3" component="h1" align="center">
+                <Typography variant="h3" component="h1">
                     AGORA
                 </Typography>
 
@@ -16,9 +16,13 @@ class AgoraDashboardOptionButtons extends Component {
                     <Grid item xs={2}>
                         <Link href="/agora/flow">Inser new Data</Link>
                     </Grid>
+                </Grid>
+                <Grid container spacing={3} className="optionswrapper">
                     <Grid item xs={2}>
                         <Link href="#">View Data</Link>
                     </Grid>
+                </Grid>
+                <Grid container spacing={3} className="optionswrapper">
                     <Grid item xs={2}>
                         <Link href="#">Statistics</Link>
                     </Grid>

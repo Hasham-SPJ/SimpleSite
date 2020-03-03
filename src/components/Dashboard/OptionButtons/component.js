@@ -8,7 +8,7 @@ class DashboardOptionButtons extends Component {
     render() {
         return (
             <>
-                <Typography variant="h3" component="h1" align="center">
+                <Typography variant="h3" component="h1">
                     Welcome To Dashboard
                 </Typography>
 
@@ -16,9 +16,13 @@ class DashboardOptionButtons extends Component {
                     <Grid item xs={2}>
                         <Link href="http://www.specialisedjobs.com/" target="_blank">Visit Website</Link>
                     </Grid>
+                </Grid>
+                <Grid container spacing={3} className="optionswrapper">
                     <Grid item xs={2}>
                         <Link href="/jobai">Job Ai</Link>
                     </Grid>
+                </Grid>
+                <Grid container spacing={3} className="optionswrapper">
                     <Grid item xs={2}>
                         <Link href="/agora">Agora</Link>
                     </Grid>

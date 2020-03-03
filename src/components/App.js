@@ -20,8 +20,7 @@ class App extends Component {
                 <Switch>
                     <Route exact path={`/`} component={DashboardOptions}/>
                     <Route exact path={`/jobai`} component={JobAI}/>
-                    <Route exact path={`/agora`} component={AgoraDashboardOptionButtons}/>
-                    <Route exact path={`/agora/flow`} component={AGORA}/>
+                    <Route exact path={`/agora`} component={AGORA}/>
                     <Route exact path={`/test`} component={TestPage}/>
                     <Route exact path={`/test/eit`} component={EITTestPage}/>
                     <Route exact path={`/result`} component={ResultPage}/>

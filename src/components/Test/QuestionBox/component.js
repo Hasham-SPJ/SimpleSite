@@ -30,10 +30,10 @@ class QuestionBox extends Component {
                     </Button>
 
                     <Button variant="contained" color="primary">
-                        <NavigateNextIcon />
+                        <KeyboardArrowLeftIcon />
                     </Button>
                     <Button variant="contained" color="primary">
-                        <KeyboardArrowLeftIcon />
+                        <NavigateNextIcon />
                     </Button>
                     </div>
                     <Button href="/result" variant="contained" color="primary" className="submitquizbtn">
