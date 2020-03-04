@@ -1,0 +1,57 @@
+
+.MuiTable-root {
+    /* text-align:center; 
+    margin-left:auto; 
+    margin-right:auto; */
+}
+.mainwrapper {
+    max-width: 1160px;
+    margin: auto;
+    padding-top: 43px;
+    max-height: 100vh;
+}
+.mainwrapper p {
+        /* max-height: 23px; */
+    /* overflow: hidden; */
+    max-height: 23px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 168px;
+}
+.MuiTooltip-popper {
+    background-colow: white;
+    
+}
+
+.MuiPaper-root{
+    /* max-width: 1380px;
+    margin: auto;
+    padding-top: 43px;
+    max-height: 1500px;
+    margin-top: 200px;
+    display: flex;  
+   flex-wrap: wrap; */
+
+
+}
+div.forminput{
+
+    display: block;
+    margin:auto;
+    width:700px;
+    margin-top: 100px;
+    background-color:#E5E7E9;
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    
+}
+
+.forminput .name {
+    width: 630px !important;
+    background-color:whitesmoke;
+    border-radius: 15px;
+
+}

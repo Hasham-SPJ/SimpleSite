@@ -2,7 +2,7 @@
     padding: 72px;
 }
 .title {
-    padding: 38px;
+    padding: 0px !important;
     border-bottom: 1px solid #0000004a;
 }
 .title a {
@@ -16,4 +16,7 @@
     padding: 9px;
     font-size: 21px;
     border-radius: 7px;
+}
+.jobaiwrapper {
+    padding: 13px;
 }

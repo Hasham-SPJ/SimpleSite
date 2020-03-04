@@ -8,6 +8,10 @@ import EITTestPage from "./Test/EIT/component";
 import ResultPage from  "./Test/Result/component";
 import DashboardOptions from "./Dashboard/OptionButtons/component";
 import AgoraDashboardOptionButtons from "./Agora/Dashboard/component";
+import CompanyData from "./Table/materialtable";
+import InsertData from "./Table/InsertData";
+// import StatsData from "./Table/stats";
+
 
 import "./style.css";
 class App extends Component {
@@ -21,6 +25,9 @@ class App extends Component {
                     <Route exact path={`/`} component={DashboardOptions}/>
                     <Route exact path={`/jobai`} component={JobAI}/>
                     <Route exact path={`/agora`} component={AGORA}/>
+                     <Route path={`/agora/companydata`} component={CompanyData}/>
+                    <Route path={`/agora/insertdata`} component={InsertData}/>
+                    {/* <Route exact path={`/agora/statsdata`} component={StatsData}/> */}
                     <Route exact path={`/test`} component={TestPage}/>
                     <Route exact path={`/test/eit`} component={EITTestPage}/>
                     <Route exact path={`/result`} component={ResultPage}/>

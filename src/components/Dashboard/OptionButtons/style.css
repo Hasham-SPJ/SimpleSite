@@ -11,3 +11,28 @@
     text-transform: uppercase;
     text-decoration: none !important;
 }
+.dashboardwrapper {
+    background: url(../../../talent.jpg);
+    width: 100%;
+    height: calc(100vh - 64px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+.dashboardwrapper h1 {
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    color: white;
+    font-family: monospace;
+}
+.dashboardwrapper p {
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    color: white;
+    font-family: monospace;
+    font-size: 19px;
+    text-transform: uppercase;
+}

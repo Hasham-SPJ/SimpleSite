@@ -3,6 +3,8 @@ import WidgetItem from "../Widgets/ListItem/component"
 import "./style.css";
 import { Button, Typography }  from '@material-ui/core';
 import EIT from "../Test/EIT/component";
+import KeyboardBackspaceIcon from "@material-ui/icons/KeyboardBackspace";
+import AgoraOptionsButton from "./Dashboard/component";
 
 class AGORA extends Component {
     constructor(props) {
@@ -51,18 +53,12 @@ class AGORA extends Component {
             }
         ];
         return (
-            <>
-                <h1 className="title"><a href="/agora">{"<"}</a>AGORA
+            <div className="agorawrapper">
+                <h1 className="title"><a href="/agora"><KeyboardBackspaceIcon /></a>AGORA
                     {/* <a href="/test" className="testlinktitle"> Start Test </a> */}
                 </h1>
-                <div class="jobwidgetwrapper">
-                    <Typography className="widgetitemtitle" variant="h3">{itemsList[this.state.stepVal].bottomText}</Typography>
-                    {
-                                    this.state.stepVal === 2 ? <EIT /> : null
-                    }
-                    {
-                                    this.state.stepVal === 3 ? <a className="attitudetest" href="http://attitudetest-dev.us-east-2.elasticbeanstalk.com/">Start Test</a> : null
-                    }
+                {/* <div class="jobwidgetwrapper">
+                    
                     {
                         itemsList.map((item, index) => (
                             
@@ -73,6 +69,15 @@ class AGORA extends Component {
                             </> : 
                             null
                         ))
+                    }
+
+                    <Typography className="widgetitemtitle" variant="h3">{itemsList[this.state.stepVal].bottomText}</Typography>
+                    {
+                                    this.state.stepVal === 2 ? <a className="attitudetest" href="http://matchingskilllevel-dev.us-west-2.elasticbeanstalk.com/Quizs">Start Test</a> : null
+                    }
+                    
+                    {
+                                    this.state.stepVal === 3 ? <a className="attitudetest" href="http://attitudetest-dev.us-east-2.elasticbeanstalk.com/">Start Test</a> : null
                     }
                 </div>
 
@@ -87,9 +92,11 @@ class AGORA extends Component {
                             Next
                         </Button>
                     </>
-                }
+                } */}
+
+                <AgoraOptionsButton />
                 
-            </>
+            </div>
         )
     }
 }
