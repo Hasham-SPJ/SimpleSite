@@ -1,9 +1,14 @@
 import React, {Component} from 'react';
 import WidgetItem from "../Widgets/ListItem/component";
 import "./style.css";
-import { Button, Typography }  from '@material-ui/core';
+import { Button, Typography, Grid }  from '@material-ui/core';
 import EIT from "../Test/EIT/component";
 import KeyboardBackspaceIcon from "@material-ui/icons/KeyboardBackspace";
+import Sideabar from "./Sidebar/container";
+import CandidateScreening from "./Screening/container";
+import CandidateHardSkillsTest from "./HardSkillsTest/container";
+import CandidateEITTest from "./EITTest/container";
+import CandidateAttitudeTest from "./AttitudeTest/container";
 
 class JobAI extends Component {
     constructor(props) {
@@ -24,39 +29,46 @@ class JobAI extends Component {
         });
     }
     render() {
-        const itemsList = [
-            {
-                title: "Candidate",
-                topText: "Screening A",
-                bottomText: "VIDEO",
-            },
-            {
-                title: "VISITORS",
-                topText: "Hard Skills Test",
-                bottomText: "Hackeron",
-            },
-            {
-                title: "Candidate",
-                topText: "Soft Skilss Test",
-                bottomText: "EMOTIONAL intelligencs Test",
-            },
-            {
-                title: "Candidate",
-                topText: "Dashboard",
-                bottomText: "ATTITUDE TEST",
-            },
-            {
-                title: "Candidate",
-                topText: "Dashboard",
-                bottomText: "CHARTS with Applicant so far",
-            }
-        ];
+        const {
+            itemsList,
+            flowStepValue
+            } = this.props;
         return (
             <div className="jobaiwrapper">
-                <h1 className="title"><a href="/"><KeyboardBackspaceIcon /></a>Job AI Widget
+
+                <h1 className="title"><a href="/"><KeyboardBackspaceIcon /></a>Job AI Widget - Candidate Flow
                  {/* <a href="/test" className="testlinktitle"> Start Test </a> */}
                  </h1>
-                 <div class="jobwidgetwrapper">
+                <Grid container spacing={3}>
+                    <Grid item xs={12} sm={4} md={2}>
+                        <Sideabar />
+                    </Grid>
+
+                    <Grid item xs={12} sm={8} md={10}>
+                        {
+                            flowStepValue === 1 ? 
+                            <CandidateScreening /> : null
+                        }
+
+                        {
+                            flowStepValue === 2 ? 
+                            <CandidateHardSkillsTest /> : null
+                        }
+
+                        {
+                            flowStepValue === 3 ? 
+                            <CandidateEITTest /> : null
+                        }
+
+                        {
+                            flowStepValue === 4 ? 
+                            <CandidateAttitudeTest /> : null
+                        }
+                    </Grid>
+                </Grid>
+
+                
+                 {/* <div class="jobwidgetwrapper">
                     
                     {
                         itemsList.map((item, index) => (
@@ -90,7 +102,7 @@ class JobAI extends Component {
                             Next
                         </Button>
                     </>
-                }
+                } */}
             </div>
         )
     }

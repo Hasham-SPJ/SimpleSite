@@ -1,0 +1,13 @@
+.hardskillswrapper h3 {
+    margin-top: 0px;
+    border-bottom: 1px solid black;
+    padding-bottom: 8px;
+    text-transform: uppercase;
+}
+.hardskillswrapper p {
+    text-align: justify;
+}
+.hardskillswrapper .starttestbtn {
+    float: right;
+    margin-top: -48px;
+}

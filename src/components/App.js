@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {BrowserRouter as Router, Switch,Route, Redirect} from "react-router-dom";
 import Dashboard from "./Dashboard/component";
-import JobAI from "./Job/component";
+import JobAI from "./Job/container";
 import AGORA from "./Agora/component";
 import TestPage from "./Test/component";
 import EITTestPage from "./Test/EIT/component";
