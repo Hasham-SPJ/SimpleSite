@@ -9,6 +9,7 @@ import FormControl from '@material-ui/core/FormControl';
 import FormLabel from '@material-ui/core/FormLabel';
 import NavigateNextIcon from "@material-ui/icons/NavigateNext";
 import KeyboardArrowLeftIcon from "@material-ui/icons/KeyboardArrowLeft";
+import Timer from "react-compound-timer";
 
 class QuestionBox extends Component {
     constructor(props) {
@@ -21,13 +22,18 @@ class QuestionBox extends Component {
             testDetail,
             saveRightAnswer,
         } = this.props;
-        
+
         const currentQuestion = testDetail.test.questions[testDetail.test.currentQuestion];
         const currentQuestionAnswer = testDetail.test.questions[testDetail.test.currentQuestion].answers;
         return (
             <>
+            
+
                 <div className="questionbox">
                     <div className="questioboxwrapper">
+                        <Timer>
+                            Timer: <Timer.Seconds /> Seconds
+                        </Timer>
                     <h3>{currentQuestion.question}</h3>
 
                     <Grid container spacing={3}>
