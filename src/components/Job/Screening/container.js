@@ -1,7 +1,8 @@
 import { connect } from "react-redux";
 import CandidateScreening from "./component";
 import {
-    screeningTestStatusHandler
+    screeningTestStatusHandler,
+    updateScreeningCurrentQuestionCounter
 } from "../actions";
 
 const mapStateToProps = state => ({
@@ -15,12 +16,18 @@ const mapDispatchToProps = (dispatch, props) => ({
     },
     screeningTestStatusCompletedHandler: () => {
         dispatch(screeningTestStatusHandler("completed"));
+    },
+    updateScreeningCurrentQuestionCounter: (value) => {
+        dispatch(updateScreeningCurrentQuestionCounter(value + 1));
     }
 })
 
 const mergeProps = (stateProps, dispatchProps, ownProps) => ({
     ...stateProps,
     ...dispatchProps,
+    updateScreeningCurrentQuestionCounter: () => {
+        dispatchProps.updateScreeningCurrentQuestionCounter(stateProps.screeningTest.test.currentQuestion);
+    },
     ...ownProps,
 })
 

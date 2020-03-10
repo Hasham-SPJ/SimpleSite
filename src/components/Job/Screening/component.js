@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import "./style.css";
 import Button from '@material-ui/core/Button';
-import TestTemplate from "../QuestionBox/component";
-import Dialog from "../../common/Dialog/component";
+import TestTemplate from "../QuestionBox/container";
 
 class CandidateScreening extends Component {
     render() {
@@ -10,12 +9,14 @@ class CandidateScreening extends Component {
             screeningTest,
             screeningTestStatusHandler,
             screeningTestStatusCompletedHandler,
+            updateScreeningCurrentQuestionCounter
         } = this.props;
+
+        const screeningTestQuestions = screeningTest.test.questions;
+        const currentQuestion = screeningTest.test.currentQuestion;
 
         return (
             <div className="screeningwrapper">
-
-                
 
                 {screeningTest.test.status === "pending" ? 
                 <>
@@ -53,7 +54,7 @@ class CandidateScreening extends Component {
                 </>
                 : null }
                 {
-                    screeningTest.test.status === "inprogress" ? <TestTemplate submitHadnler={screeningTestStatusCompletedHandler} /> : null
+                    screeningTest.test.status === "inprogress" ? <TestTemplate testDetail={screeningTest} updateScreeningCurrentQuestionCounter={updateScreeningCurrentQuestionCounter} submitHadnler={screeningTestStatusCompletedHandler} /> : null
                 }
 
                 {

@@ -31,7 +31,60 @@ export const CANDIDATE = {
         tests: {
             screening: {
                 test: {
-                    questions:[],
+                    questions:[
+                        {
+                            question: "Question 1",
+                            answers: [
+                                {
+                                    answer: "question 1 - answer 1"
+                                },
+                                {
+                                    answer: "question 1 - answer 2"
+                                },
+                                {
+                                    answer: "question 1 - answer 3"
+                                },
+                                {
+                                    answer: "question 1 - answer 4"
+                                }
+                            ],
+                        },
+                        {
+                            question: "Question 2",
+                            answers: [
+                                {
+                                    answer: "question 2 - answer 1"
+                                },
+                                {
+                                    answer: "question 2 - answer 2"
+                                },
+                                {
+                                    answer: "question 2 - answer 3"
+                                },
+                                {
+                                    answer: "question 2 - answer 4"
+                                }
+                            ],
+                        },
+                        {
+                            question: "Question 3",
+                            answers: [
+                                {
+                                    answer: "question 3 - answer 1"
+                                },
+                                {
+                                    answer: "question 3 - answer 2"
+                                },
+                                {
+                                    answer: "question 3 - answer 3"
+                                },
+                                {
+                                    answer: "question 3 - answer 4"
+                                }
+                            ],
+                        }
+                    ],
+                    currentQuestion: 0,
                     score: 0,
                     status: "pending",
                 }
