@@ -18,12 +18,12 @@ class QuestionBox extends Component {
         const {
             submitHadnler,
             updateScreeningCurrentQuestionCounter,
-            testDetail
+            testDetail,
+            saveRightAnswer,
         } = this.props;
-
+        
         const currentQuestion = testDetail.test.questions[testDetail.test.currentQuestion];
         const currentQuestionAnswer = testDetail.test.questions[testDetail.test.currentQuestion].answers;
-
         return (
             <>
                 <div className="questionbox">
@@ -37,7 +37,7 @@ class QuestionBox extends Component {
                             {
                                 currentQuestionAnswer.map(test => (
                                     <>
-                                        <FormControlLabel value={test.answer} control={<Radio />} label={test.answer} />
+                                        <FormControlLabel value={test.answer} control={<Radio />} label={test.answer} onClick={(e) => saveRightAnswer(currentQuestion.rightAnswer, test.answer, testDetail.test.score)}/>
                                     </>
                                 ))
                             }

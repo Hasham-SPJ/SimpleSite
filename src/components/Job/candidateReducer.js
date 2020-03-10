@@ -3,7 +3,8 @@ import {
     SET_SCREENING_STATUS_INPROGRESS_HANDLER,
     SET_DIALOG_HARDSKILSS_DIALOG_HANDLER,
     SET_DIALOG_EITTEST_DIALOG_HANDLER,
-    UPDATE_SCREENING_CURRENT_QUESTION_HANDLER
+    UPDATE_SCREENING_CURRENT_QUESTION_HANDLER,
+    UPDATE_SCREENING_SCORE_HANDLER
 } from "./actions";
 
 export const candidateReducer = (state = [], action) => {
@@ -88,6 +89,24 @@ export const candidateReducer = (state = [], action) => {
                             test: {
                                 ...state.data.tests.screening.test,
                                 currentQuestion: action.payload
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        case UPDATE_SCREENING_SCORE_HANDLER: {
+            return {
+                ...state,
+                data:{
+                    ...state.data,
+                    tests: {
+                        ...state.data.tests,
+                        screening: {
+                            ...state.data.tests.screening,
+                            test: {
+                                ...state.data.tests.screening.test,
+                                score: action.payload
                             }
                         }
                     }

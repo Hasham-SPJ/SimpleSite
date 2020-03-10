@@ -3,6 +3,7 @@ export const SET_SCREENING_STATUS_INPROGRESS_HANDLER = "SET_SCREENING_STATUS_INP
 export const SET_DIALOG_HARDSKILSS_DIALOG_HANDLER = "SET_DIALOG_HARDSKILSS_DIALOG_HANDLER";
 export const SET_DIALOG_EITTEST_DIALOG_HANDLER = "SET_DIALOG_EITTEST_DIALOG_HANDLER";
 export const UPDATE_SCREENING_CURRENT_QUESTION_HANDLER = "UPDATE_SCREENING_CURRENT_QUESTION_HANDLER";
+export const UPDATE_SCREENING_SCORE_HANDLER = "UPDATE_SCREENING_SCORE_HANDLER";
 
 export const setStepVal = (value) => {
     return {
@@ -37,5 +38,12 @@ export const setStepVal = (value) => {
     return {
       type: UPDATE_SCREENING_CURRENT_QUESTION_HANDLER,
       payload: value,
+    }
+  }
+
+  export const saveRightAnswer = (score) => {
+    return {
+      type: UPDATE_SCREENING_SCORE_HANDLER,
+      payload: score,
     }
   }

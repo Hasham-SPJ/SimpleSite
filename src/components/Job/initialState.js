@@ -48,6 +48,7 @@ export const CANDIDATE = {
                                     answer: "question 1 - answer 4"
                                 }
                             ],
+                            rightAnswer: "question 1 - answer 2",
                         },
                         {
                             question: "Question 2",
@@ -65,6 +66,7 @@ export const CANDIDATE = {
                                     answer: "question 2 - answer 4"
                                 }
                             ],
+                            rightAnswer: "question 2 - answer 3",
                         },
                         {
                             question: "Question 3",
@@ -82,6 +84,7 @@ export const CANDIDATE = {
                                     answer: "question 3 - answer 4"
                                 }
                             ],
+                            rightAnswer: "question 3 - answer 3"
                         }
                     ],
                     currentQuestion: 0,
