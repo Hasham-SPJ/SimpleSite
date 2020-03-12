@@ -31,26 +31,6 @@ class CandidateScreening extends Component {
 
                     The tracking system should be able to provide means of automatically moving a job seeker from one stage to the next based on certain conditions/exams met. That might achieved via API integrations or some rules engine on the tracking system itself.
                     </p>
-
-                    <p>
-                        <b>Terms: </b>
-                    </p>
-                    <ul>
-                        <li>As a job seeker, I want to be able to input my personal info.</li>
-                        <li>As a job seeker, I want to be able to input my education history.</li>
-                        <li>As a job seeker, I want to be able to input my work history.</li>
-                        <li>As a job seeker, I want to be able to link a LinkedIn Profile and fill basic info, work history and education history from existing profile, to be able to setup my profile</li>
-                        <li>As a job seeker, I want to be able to upload a CV and fill basic info, work history and education history from uploaded CV, to be able to setup my profile</li>
-                        <li>As a job seeker, I want to be able to search for available jobs on the platform, to be able to find a good job and apply</li>
-                        <li>As a job seeker, I want to be able to view job details, to be able to decide whether I should apply</li>
-                        <li>As a job seeker, I want to be able to apply for a job, to potentially be hired</li>
-                        <li>As a job seeker, I want to be able to review application status for a job I already applied to, to be able to monitor status</li>
-                        <li>As a job seeker, I want to be able to see a list of job applications I’ve submitted, to be able to monitor application status of each</li>
-                        <li>As a job seeker, I would be able to receive badges and verified credentials based on courses I’ve taken on partner platforms, to increase the credibility of my profile</li>
-                        <li>As a job seeker, I want to be able to create a CV based off of the data in my profile, to be able to share/print it.</li>
-                        <li>As a job seeker, I want to be able to input my contact information.</li>
-                        <li>As a job seeker, I want to be able to input my volunteer Experience.</li>
-                    </ul>
                 </>
                 : null }
                 {

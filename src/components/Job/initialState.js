@@ -94,7 +94,63 @@ export const CANDIDATE = {
             },
             hardskilss: {
                 test: {
-                    questions:[],
+                    questions:[
+                        {
+                            question: "Question 1",
+                            answers: [
+                                {
+                                    answer: "question 1 - answer 1"
+                                },
+                                {
+                                    answer: "question 1 - answer 2"
+                                },
+                                {
+                                    answer: "question 1 - answer 3"
+                                },
+                                {
+                                    answer: "question 1 - answer 4"
+                                }
+                            ],
+                            rightAnswer: "question 1 - answer 2",
+                        },
+                        {
+                            question: "Question 2",
+                            answers: [
+                                {
+                                    answer: "question 2 - answer 1"
+                                },
+                                {
+                                    answer: "question 2 - answer 2"
+                                },
+                                {
+                                    answer: "question 2 - answer 3"
+                                },
+                                {
+                                    answer: "question 2 - answer 4"
+                                }
+                            ],
+                            rightAnswer: "question 2 - answer 3",
+                        },
+                        {
+                            question: "Question 3",
+                            answers: [
+                                {
+                                    answer: "question 3 - answer 1"
+                                },
+                                {
+                                    answer: "question 3 - answer 2"
+                                },
+                                {
+                                    answer: "question 3 - answer 3"
+                                },
+                                {
+                                    answer: "question 3 - answer 4"
+                                }
+                            ],
+                            rightAnswer: "question 3 - answer 3"
+                        }
+                    ],
+                    currentQuestion: 0,
                     score: 0,
                     status: "pending",
                     closehardskills: false,
@@ -102,7 +158,63 @@ export const CANDIDATE = {
             },
             eittest: {
                 test: {
-                    questions:[],
+                    questions:[
+                        {
+                            question: "Question 1",
+                            answers: [
+                                {
+                                    answer: "question 1 - answer 1"
+                                },
+                                {
+                                    answer: "question 1 - answer 2"
+                                },
+                                {
+                                    answer: "question 1 - answer 3"
+                                },
+                                {
+                                    answer: "question 1 - answer 4"
+                                }
+                            ],
+                            rightAnswer: "question 1 - answer 2",
+                        },
+                        {
+                            question: "Question 2",
+                            answers: [
+                                {
+                                    answer: "question 2 - answer 1"
+                                },
+                                {
+                                    answer: "question 2 - answer 2"
+                                },
+                                {
+                                    answer: "question 2 - answer 3"
+                                },
+                                {
+                                    answer: "question 2 - answer 4"
+                                }
+                            ],
+                            rightAnswer: "question 2 - answer 3",
+                        },
+                        {
+                            question: "Question 3",
+                            answers: [
+                                {
+                                    answer: "question 3 - answer 1"
+                                },
+                                {
+                                    answer: "question 3 - answer 2"
+                                },
+                                {
+                                    answer: "question 3 - answer 3"
+                                },
+                                {
+                                    answer: "question 3 - answer 4"
+                                }
+                            ],
+                            rightAnswer: "question 3 - answer 3"
+                        }
+                    ],
+                    currentQuestion: 0,
                     score: 0,
                     status: "pending",
                     closeeittest: false,
@@ -111,6 +223,7 @@ export const CANDIDATE = {
             attitudetest: {
                 test: {
                     questions:[],
+                    currentQuestion: 0,
                     score: 0,
                     status: "pending",
                     closeattitudetest: false,

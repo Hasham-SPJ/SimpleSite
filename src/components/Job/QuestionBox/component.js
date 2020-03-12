@@ -31,9 +31,19 @@ class QuestionBox extends Component {
 
                 <div className="questionbox">
                     <div className="questioboxwrapper">
-                        <Timer>
-                            Timer: <Timer.Seconds /> Seconds
-                        </Timer>
+                    <Timer
+                        initialTime={600000}
+                        direction="backward"
+                    >
+                        {() => (
+                            <React.Fragment>
+                                <h2 class="timer">Timer: 
+                                    <Timer.Minutes /> <span>minutes </span>
+                                    <Timer.Seconds /> <span>seconds</span>
+                                </h2>
+                            </React.Fragment>
+                        )}
+                    </Timer>
                     <h3>{currentQuestion.question}</h3>
 
                     <Grid container spacing={3}>

@@ -5,6 +5,12 @@ export const SET_DIALOG_EITTEST_DIALOG_HANDLER = "SET_DIALOG_EITTEST_DIALOG_HAND
 export const UPDATE_SCREENING_CURRENT_QUESTION_HANDLER = "UPDATE_SCREENING_CURRENT_QUESTION_HANDLER";
 export const UPDATE_SCREENING_SCORE_HANDLER = "UPDATE_SCREENING_SCORE_HANDLER";
 
+export const SET_HARDSKILSS_STATUS_INPROGRESS_HANDLER = "SET_HARDSKILSS_STATUS_INPROGRESS_HANDLER";
+export const UPDATE_HARDSKILLS_CURRENT_QUESTION_HANDLER = "UPDATE_HARDSKILLS_CURRENT_QUESTION_HANDLER";
+
+export const SET_EITTEST_STATUS_INPROGRESS_HANDLER = "SET_EITTEST_STATUS_INPROGRESS_HANDLER";
+export const UPDATE_EITTEST_CURRENT_QUESTION_HANDLER = "UPDATE_EITTEST_CURRENT_QUESTION_HANDLER";
+
 export const setStepVal = (value) => {
     return {
       type: SET_STEP_VALUE,
@@ -45,5 +51,34 @@ export const setStepVal = (value) => {
     return {
       type: UPDATE_SCREENING_SCORE_HANDLER,
       payload: score,
+    }
+  }
+
+  //harskilss
+  export const hardskilssTestStatusHandler = (value) => {
+    return {
+      type: SET_HARDSKILSS_STATUS_INPROGRESS_HANDLER,
+      payload: value,
+    };
+  }
+
+  export const updateHardskillsCurrentQuestionCounter = (value) => {
+    return {
+      type: UPDATE_HARDSKILLS_CURRENT_QUESTION_HANDLER,
+      payload: value,
+    }
+  }
+
+  //eittest
+  export const eitTestStatusHandler = (value) => {
+    return {
+      type: SET_EITTEST_STATUS_INPROGRESS_HANDLER,
+      payload: value,
+    };
+  }
+  export const updateeittestCurrentQuestionCounter = (value) => {
+    return {
+      type: UPDATE_EITTEST_CURRENT_QUESTION_HANDLER,
+      payload: value,
     }
   }
