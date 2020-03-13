@@ -10,7 +10,7 @@ import DashboardOptions from "./Dashboard/OptionButtons/component";
 import AgoraDashboardOptionButtons from "./Agora/Dashboard/component";
 import CompanyData from "./Table/materialtable";
 import InsertData from "./Table/InsertData";
-// import StatsData from "./Table/stats";
+import StatsData from "./Table/stats";
 import AgoraLandingPage from "./Table/agoralandingpage";
 
 import "./style.css";
@@ -27,7 +27,7 @@ class App extends Component {
                     <Route exact path={`/agora`} component={AgoraLandingPage}/>
                      <Route path={`/agora/companydata`} component={CompanyData}/>
                     <Route path={`/agora/insertdata`} component={InsertData}/>
-                    {/* <Route exact path={`/agora/statsdata`} component={StatsData}/> */}
+                    <Route exact path={`/agora/stats`} component={StatsData}/>
                     <Route exact path={`/test`} component={TestPage}/>
                     <Route exact path={`/test/eit`} component={EITTestPage}/>
                     <Route exact path={`/result`} component={ResultPage}/>
