@@ -11,7 +11,7 @@ import AgoraDashboardOptionButtons from "./Agora/Dashboard/component";
 import CompanyData from "./Table/materialtable";
 import InsertData from "./Table/InsertData";
 // import StatsData from "./Table/stats";
-
+import AgoraLandingPage from "./Table/agoralandingpage";
 
 import "./style.css";
 class App extends Component {
@@ -24,7 +24,7 @@ class App extends Component {
                 <Switch>
                     <Route exact path={`/`} component={DashboardOptions}/>
                     <Route exact path={`/jobai`} component={JobAI}/>
-                    <Route exact path={`/agora`} component={AGORA}/>
+                    <Route exact path={`/agora`} component={AgoraLandingPage}/>
                      <Route path={`/agora/companydata`} component={CompanyData}/>
                     <Route path={`/agora/insertdata`} component={InsertData}/>
                     {/* <Route exact path={`/agora/statsdata`} component={StatsData}/> */}
