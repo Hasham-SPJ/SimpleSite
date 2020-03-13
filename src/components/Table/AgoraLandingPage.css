@@ -1,0 +1,124 @@
+.Headercontainer{
+    background: url(./AgoraAssets/img/headerimage.jpg);
+    background-attachment: fixed;
+    opacity: 20;
+    width: 100%;
+    height: calc(100vh - 64px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: white;
+
+}
+.HeaderText{
+   
+    padding-top: 200px;
+    position: relative;
+    z-index: 5;
+}
+.ImageCover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index:4;
+    background-color: rgba(0, 0, 0, 0.64);
+}
+
+.NavButtons
+{
+    position: relative;
+    width: 300px;
+    background: #80808038 !important;
+    margin-left: 15px;
+    margin-top: 120px;
+    margin-bottom: 50px;
+    text-align: center;
+    
+
+}
+
+.NavDiv{    
+    margin-top: 100px;
+    align-content: center;
+    color: #0072ff;
+    margin-bottom: 150px;
+}
+
+.Htext
+{
+    color:white;
+    
+}
+.tab1{
+    background: url(./AgoraAssets/img/Insert.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 195px;
+
+}
+.tab2{
+    background: url(./AgoraAssets/img/view.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 195px;
+}
+.tab3{
+    background: url(./AgoraAssets/img/stats.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 195px;
+}
+.ManualDiv{    
+    margin-top: 70px;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #0072ff;
+    padding-bottom: 50px;
+    
+}
+.UMtab
+{
+    background: url(./AgoraAssets/img/manual.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+   
+    height: 400px;
+    padding-top: 50px;
+    padding-left: 100px;
+}
+.ManualList{
+    color: black !important;
+}
+.DownloadButton{
+    margin-left: 50px !important;
+    margin-top: 20px !important;
+
+}
+.GoogleSheetButton
+{
+    margin-bottom: 25px;
+}
+.navtab1{
+    text-align: -webkit-center;
+}
+
+.google-visualization-controls-label{
+    font-family: "Times New Roman", Times, serif;
+    margin-bottom: 20px;
+    font-size: 22px;
+    /* color: cornflowerblue; */
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.google-visualization-controls-stringfilter input {
+    border: 1px solid #6a7eac;
+    margin-top: 5px;
+    border-radius: 20px;
+    height: 30px;
+    background-color: lightgray;
+    font-size: 22px;
+    text-align: center;
+}
