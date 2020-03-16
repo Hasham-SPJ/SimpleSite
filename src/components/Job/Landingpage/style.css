@@ -1,0 +1,47 @@
+.jobailandingpage {
+    padding-top: 112px;
+    position: relative;
+    background-image: url(../../../template.png);
+    background-size: cover;
+    height: calc(100vh - 176px);
+    background-position: center;
+}
+.jobailandingwrapper {
+    width: 100%;
+    text-align: center;
+}
+.jobailandingwrapper {
+    margin-top: 7%;
+    z-index: 999;
+}
+.jobailandingwrapper h1 {
+    font-weight: 700;
+    font-size: 62px;
+    margin-bottom: 22px;
+}
+.jobailandingwrapper h1 span {
+    color: #397AD0;
+}
+.jobailandingwrapper p {
+    color: #828282;
+    font-size: 25px;
+    max-width: 462px;
+    margin: auto;
+}
+.jobailandingwrapper button {
+    border: 3px solid #397AD0;
+    border-radius: 34px;
+    width: 284px;
+    height: 68px;
+    font-size: 30px;
+    color: #397AD0;
+    margin-top: 54px;
+    text-transform: capitalize;
+}
+.jobailandingpagebg {
+    position: absolute;
+    height: calc(100vh - 176px);
+}
+.jobailandingpagebg img {
+    height: 100%;
+}

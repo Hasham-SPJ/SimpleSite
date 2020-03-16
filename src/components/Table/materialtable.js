@@ -81,7 +81,7 @@ export default function VerticalTabs() {
                         View Google Sheet
                     </Button>
                 </div>
-                <div>
+                <div className="googledatatab">
                     <Chart
                         chartType="Table"
                         loader={<div>Loading Chart</div>}

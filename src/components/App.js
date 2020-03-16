@@ -12,6 +12,7 @@ import CompanyData from "./Table/materialtable";
 import InsertData from "./Table/InsertData";
 import StatsData from "./Table/stats";
 import AgoraLandingPage from "./Table/agoralandingpage";
+import JobAILandingPage from "./Job/Landingpage/container";
 
 import "./style.css";
 class App extends Component {
@@ -23,7 +24,8 @@ class App extends Component {
           <Router>
                 <Switch>
                     <Route exact path={`/`} component={DashboardOptions}/>
-                    <Route exact path={`/jobai`} component={JobAI}/>
+                    <Route exact path={`/jobai`} component={JobAILandingPage}/>
+                    <Route path={`/jobai/candidate`} component={JobAI}/>
                     <Route exact path={`/agora`} component={AgoraLandingPage}/>
                      <Route path={`/agora/companydata`} component={CompanyData}/>
                     <Route path={`/agora/insertdata`} component={InsertData}/>
