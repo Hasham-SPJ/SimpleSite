@@ -1,7 +1,7 @@
-.jobailandingpage {
+.jobaiselectcategory {
     padding-top: 112px;
     position: relative;
-    background-image: url(../../../template.png);
+    background-image: url(../../../template2.png);
     background-size: contain;
     height: calc(100vh - 176px);
     background-position: 85% 59%;
@@ -12,29 +12,29 @@
         padding-left: 32px;
     }
 }
-.jobailandingwrapper {
+.jobaicategorywrapper {
     width: 100%;
     text-align: center;
 }
-.jobailandingwrapper {
+.jobaicategorywrapper {
     margin-top: 7%;
     z-index: 999;
 }
-.jobailandingwrapper h1 {
+.jobaicategorywrapper h1 {
     font-weight: 700;
     font-size: 62px;
     margin-bottom: 22px;
 }
-.jobailandingwrapper h1 span {
+.jobaicategorywrapper h1 span {
     color: #397AD0;
 }
-.jobailandingwrapper p {
+.jobaicategorywrapper p {
     color: #828282;
     font-size: 25px;
     max-width: 462px;
     margin: auto;
 }
-.jobailandingwrapper a {
+.jobaicategorywrapper a {
     border: 3px solid #397AD0;
     border-radius: 34px;
     width: 284px;
@@ -50,4 +50,18 @@
 }
 .jobailandingpagebg img {
     height: 100%;
+}
+.jobaicategoryselectwrapper {
+    padding-left: 80px;
+    text-align: center;
+    margin-top: 17px;
+}
+.jobaicategoryselectwrapper h1 {
+    color: #828282;
+    font-size: 25px;
+    margin: auto;
+    font-weight: 400;
+}
+.jobaicategoryselectwrapper img {
+    width: 100px;
 }

@@ -16,7 +16,7 @@ class JobAILandingPage extends Component {
                     <div className="jobailandingwrapper">
                         <h1>Welcome to <span>Job Ai</span></h1>
                         <p>We enable High-tech companies to meet staffing needs around the globe</p>
-                        <Button variant="outlined" color="primary">
+                        <Button href="jobai/selectcategory" variant="outlined" color="primary">
                             Get Started
                         </Button>
                     </div>
