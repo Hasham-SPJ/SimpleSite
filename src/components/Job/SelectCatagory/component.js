@@ -6,6 +6,20 @@ import CandidateIcon from "../../../iconCandidate.png"
 import Corporateicon from "../../../iconCorporate.png";
 
 class JobAISelectCategory extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            selectedCat: null,
+            selectedRoute : "/",
+        }
+    }
+
+    selectCatetgoryHandler = (value, route) => {
+        this.setState({
+            selectedCat: value,
+            selectedRoute: route,
+        })
+    }
     render() {
 
         return (
@@ -18,7 +32,7 @@ class JobAISelectCategory extends Component {
                     <div className="jobaicategorywrapper">
                         <h1>Join Our <span>Team</span></h1>
                         <p>Select Your Category</p>
-                        <Button href="jobai/selectcategory" variant="outlined" color="primary">
+                        <Button href={this.state.selectedRoute} disabled={this.state.selectedCat ? false : true} variant="outlined" color="primary">
                             Let's Begin
                         </Button>
                     </div>
@@ -27,12 +41,16 @@ class JobAISelectCategory extends Component {
 
                 <Grid container className="jobaicategoryselectwrapper">
                     <Grid item xs={2} align="center">
-                        <img src={CandidateIcon} ></img>
-                        <h1>Candidate</h1>
+                        <div className={this.state.selectedCat === 1 ? "jobaiselectedcategory" : null} onClick={(e) => this.selectCatetgoryHandler(1, "/jobai/candidate/")}>
+                            <img src={CandidateIcon}></img>
+                            <h1>Candidate</h1>
+                        </div>
                     </Grid>
                     <Grid item xs={2} align="center">
-                        <img src={Corporateicon} ></img>
-                        <h1>Corporate</h1>
+                        <div className={this.state.selectedCat === 2 ? "jobaiselectedcategory" : null} onClick={(e) => this.selectCatetgoryHandler(2, "/jobai/corporate/")}>
+                            <img src={Corporateicon}></img>
+                            <h1>Corporate</h1>
+                        </div>
                     </Grid>
                 </Grid>
                 
