@@ -40,13 +40,13 @@ class JobAISelectCategory extends Component {
                 </Grid>
 
                 <Grid container className="jobaicategoryselectwrapper">
-                    <Grid item xs={2} align="center">
+                    <Grid item xs={12} md={2} align="center">
                         <div className={this.state.selectedCat === 1 ? "jobaiselectedcategory" : null} onClick={(e) => this.selectCatetgoryHandler(1, "/jobai/candidate/")}>
                             <img src={CandidateIcon}></img>
                             <h1>Candidate</h1>
                         </div>
                     </Grid>
-                    <Grid item xs={2} align="center">
+                    <Grid item xs={12} md={2} align="center">
                         <div className={this.state.selectedCat === 2 ? "jobaiselectedcategory" : null} onClick={(e) => this.selectCatetgoryHandler(2, "/jobai/corporate/")}>
                             <img src={Corporateicon}></img>
                             <h1>Corporate</h1>

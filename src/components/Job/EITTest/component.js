@@ -35,7 +35,11 @@ class CandidateEITTest extends Component {
                 </Button>
                 <p>
                     <b>Scope: </b> <br></br>
-                    The resolve to develop this application module is to build a test system where the candidate can take a soft skill test, soft skill test is vital to know the candidate is able to collaborate, contribute, meet deadlines, and understands the end user's perspective. The assessment will be a series of questions of different types which are pulled randomly from a test bank.
+                    The resolve to develop this application module is to build a test system where
+                    the candidate can take a soft skill test, soft skill test is vital to know the
+                    candidate is able to collaborate, contribute, meet deadlines, and understands the end user's
+                    perspective. The assessment will be a series of questions of different types which are
+                    pulled randomly from a test bank.
                 </p>
                 </> : null }
 

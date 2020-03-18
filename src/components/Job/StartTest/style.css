@@ -1,0 +1,57 @@
+.jobaistarttestpage {
+    padding-top: 112px;
+    position: relative;
+    background-image: url(../../../draft.gif);
+    background-size: auto;
+    height: calc(100vh - 176px);
+    background-position: 99% 48%;
+    background-repeat: no-repeat;
+}
+@media(min-width: 960px) and (max-width: 1400px) {
+    .jobaistarttestpage {
+        padding-left: 32px;
+    }
+}
+.jobaistarttestwrapper {
+    width: 100%;
+    text-align: center;
+}
+.jobaistarttestwrapper {
+    margin-top: 7%;
+    z-index: 999;
+}
+.jobaistarttestwrapper h1 {
+    font-weight: 700;
+    font-size: 62px;
+    margin-bottom: 22px;
+}
+.jobaistarttestwrapper h1 span {
+    color: #397AD0;
+}
+.jobaistarttestwrapper p {
+    color: #828282;
+    font-size: 25px;
+    max-width: 462px;
+    margin: auto;
+}
+.jobaistarttestwrapper a {
+    border: 3px solid #397AD0;
+    border-radius: 34px;
+    width: 284px;
+    height: 68px;
+    font-size: 30px;
+    color: #397AD0;
+    margin-top: 13px;
+    text-transform: capitalize;
+}
+.jobaistarttestbg {
+    position: absolute;
+    height: calc(100vh - 176px);
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+.jobaistarttestbg img {
+    height: 100%;
+}
