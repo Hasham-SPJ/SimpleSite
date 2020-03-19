@@ -14,6 +14,7 @@ import {
     KeyboardTimePicker,
     KeyboardDatePicker,
 } from '@material-ui/pickers';
+import ColorCircularProgress from '@material-ui/core/LinearProgress';
 
 class CandidateScreeningA extends Component {
 
@@ -123,6 +124,44 @@ class CandidateScreeningA extends Component {
                                     Update Profile Image
                                 </Button>
                             </label>
+
+                            <div className="screeningaprogress">
+                                <h2>Personal Information</h2>
+                                <ColorCircularProgress
+                                variant="determinate"
+                                color="primary"
+                                value={50}                        
+                                 />
+                                 <span>50% Complete</span>
+                            </div>
+
+                            <div className="screeningaprogress">
+                                <h2>Academics</h2>
+                                <ColorCircularProgress
+                                variant="determinate"
+                                color="primary"
+                                value={50}                        
+                                 />
+                                 <span>50% Complete</span>
+                            </div>
+
+                            <div className="screeningaprogress">
+                                <h2>Experience</h2>
+                                <ColorCircularProgress
+                                variant="determinate"
+                                color="primary"
+                                value={50}                        
+                                 />
+                                 <span>50% Complete</span>
+                            </div>
+
+                            <div className="screeningaprogress">
+                                <h2>Award & Honors</h2>
+                            </div>
+
+                            <div className="screeningaprogress">
+                                <h2>Languages</h2>
+                            </div>
                         </div>
                     </Grid>
                 </Grid>

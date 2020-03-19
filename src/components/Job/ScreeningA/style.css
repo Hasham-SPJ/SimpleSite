@@ -69,3 +69,18 @@
     background: none;
     box-shadow: none;
 }
+.screeningaright .screeningaprogress {
+    padding: 13px;
+    padding-bottom: 0px;
+    margin-bottom: 7px;
+}
+.screeningaright .screeningaprogress h2 {
+    font-size: 16px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+.screeningaright .screeningaprogress span {
+    color: #7195BF;
+    font-size: 10px;
+    float: right;
+}
