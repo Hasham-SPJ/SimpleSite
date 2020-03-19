@@ -10,6 +10,7 @@ import FormLabel from '@material-ui/core/FormLabel';
 import NavigateNextIcon from "@material-ui/icons/NavigateNext";
 import KeyboardArrowLeftIcon from "@material-ui/icons/KeyboardArrowLeft";
 import Timer from "react-compound-timer";
+import QueryBuilderIcon from "@material-ui/icons/QueryBuilder";
 
 class QuestionBox extends Component {
     constructor(props) {
@@ -37,7 +38,9 @@ class QuestionBox extends Component {
                     >
                         {() => (
                             <React.Fragment>
-                                <h2 class="timer">Timer: 
+                                <h2 class="timer">
+                                    {/* <QueryBuilderIcon /> */}
+                                    Time Left: 
                                     <Timer.Minutes /> <span>minutes </span>
                                     <Timer.Seconds /> <span>seconds</span>
                                 </h2>

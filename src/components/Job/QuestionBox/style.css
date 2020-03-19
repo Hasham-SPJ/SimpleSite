@@ -47,7 +47,9 @@
     margin-top: 22px !important;
 }
 .timer {
-    
+    float: right;
+    line-height: 1px;
+    font-size: 17px;
 }
 .testradiogroup {
     width: 555px;
