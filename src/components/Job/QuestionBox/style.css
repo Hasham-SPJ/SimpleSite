@@ -1,11 +1,11 @@
 .questionbox {
-    max-width: 70%;
-    width: 70%;
-    margin: 19px;
-    display: inline-block;
+    max-width: 100%;
+    width: 100%;
+    border-left: 6px solid #0E4C92;
+    background: #C7E9F6;
 }
 .questioboxwrapper {
-    background: white;
+    background: transparent;
     padding: 10px;
 }
 .questionbox h3 {
@@ -13,7 +13,7 @@
     line-height: 30px;
     padding-bottom: 10px;
     color: #444444;
-    font-size: 18px;
+    font-size: 17px;
 }
 .ans-slide {
     display: block;
@@ -48,4 +48,9 @@
 }
 .timer {
     
+}
+.testradiogroup {
+    width: 555px;
+    display: inline-block !important;
+    margin-bottom: 17px;
 }

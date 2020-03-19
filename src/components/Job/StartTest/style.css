@@ -3,7 +3,7 @@
     position: relative;
     background-image: url(../../../draft.gif);
     background-size: auto;
-    height: calc(100vh - 176px);
+    height: calc(100vh - 227px);
     background-position: 99% 48%;
     background-repeat: no-repeat;
 }
@@ -34,12 +34,12 @@
     max-width: 462px;
     margin: auto;
 }
-.jobaistarttestwrapper a {
+.jobaistarttestwrapper button {
     border: 3px solid #397AD0;
     border-radius: 34px;
-    width: 284px;
-    height: 68px;
-    font-size: 30px;
+    width: 218px;
+    height: 52px;
+    font-size: 23px;
     color: #397AD0;
     margin-top: 13px;
     text-transform: capitalize;
@@ -54,4 +54,7 @@
 }
 .jobaistarttestbg img {
     height: 100%;
+}
+.jobaistarttestopt {
+    height: calc(100vh - 176px);
 }

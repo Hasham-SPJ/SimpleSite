@@ -232,4 +232,5 @@ export const CANDIDATE = {
         }
     }
 }
+
 export default CANDIDATE;

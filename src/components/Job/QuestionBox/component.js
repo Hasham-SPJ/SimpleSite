@@ -46,10 +46,10 @@ class QuestionBox extends Component {
                     </Timer>
                     <h3>{currentQuestion.question}</h3>
 
-                    <Grid container spacing={3}>
+                    <Grid container>
                         <Grid item xs={12} sm={12} md={12}>
                         <FormControl component="fieldset">
-                        <RadioGroup aria-label="gender" name="gender1">
+                        <RadioGroup aria-label="gender" name="gender1" className="testradiogroup">
                             {
                                 currentQuestionAnswer.map(test => (
                                     <>

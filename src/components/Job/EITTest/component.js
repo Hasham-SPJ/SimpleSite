@@ -3,6 +3,7 @@ import "./style.css";
 import Button from '@material-ui/core/Button';
 import Dialog from "../../common/Dialog/component";
 import TestTemplate from "../QuestionBox/container";
+import TestScore from "../TestScore/container";
 
 class CandidateEITTest extends Component {
     render() {
@@ -50,10 +51,7 @@ class CandidateEITTest extends Component {
                 {
                     eittest.test.status === "completed" ? 
                     <>
-                        <h3>Score :</h3>
-                        {
-                            eittest.test.score 
-                        }
+                        <TestScore score={eittest.test.score}/>
                     </>
                     : null
                 }

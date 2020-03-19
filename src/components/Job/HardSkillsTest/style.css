@@ -9,5 +9,15 @@
 }
 .hardskillswrapper .starttestbtn {
     float: right;
-    margin-top: -48px;
+    margin-top: -28px;
+    background: #4ABFEF;
+    width: 245px;
+    height: 53px;
+    font-size: 23px;
+}
+.titlewithicon {
+    display: flex;
+}
+.titlewithicon span {
+    padding-left: 13px;
 }

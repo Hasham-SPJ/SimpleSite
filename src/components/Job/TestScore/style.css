@@ -1,0 +1,18 @@
+.jobaitestscorewrapper {
+    border-top: 6px solid #0E4C92;
+    background: #C7E9F6;
+    min-height: 200px;
+    height: 431px;
+    display: inherit;
+    width: 100%;
+    text-align: center;
+}
+.jobaitestscorewrapper h1 {
+    font-size: 23px;
+    color: #0E4C92;
+    padding-top: 71px;
+}
+.jobaitestscorewrapper h3 {
+    font-size: 23px;
+    border: none;
+}
