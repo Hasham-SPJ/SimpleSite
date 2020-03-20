@@ -19,6 +19,9 @@ class JobAILandingPage extends Component {
                         <Button href="jobai/selectcategory" variant="outlined" color="primary">
                             Get Started
                         </Button>
+                        <Button href="jobai/dashboard" variant="outlined" color="primary">
+                            Visit Dashboard
+                        </Button>
                     </div>
                     </Grid>
                 </Grid>

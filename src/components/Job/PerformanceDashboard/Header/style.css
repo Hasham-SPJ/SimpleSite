@@ -1,0 +1,94 @@
+.jobaiperformancedashboard {
+    width: 95%;
+    margin: auto;
+    box-shadow: 3px -9px 12px 9px #0000003b;
+}
+.jobaiperformancedashboard .headertitle {
+    display: inline-block;
+}
+.jobaiperformancedashboard .headertitle ul {
+    list-style: none;
+}
+.jobaiperformancedashboard .headertitle ul li {
+    display: inline-block;
+}
+.jobaiperformancedashboard .headertitle h1 {
+    font-size: 44px;
+    color: #0E4C92;
+    display: inline-block;
+    margin: 0px;
+    border-right: 2px solid #d0d0d0;
+    padding-right: 17px;
+    margin-right: 17px;
+    line-height: 46px;
+}
+.jobaiperformancedashboard .headertitle h2 {
+
+}
+.jobaiperformancedashboard .headertitle span {
+    font-size: 25px;
+    color: #4E4E4E;
+}
+.jobaiperformancedashboard .headertitleright ul {
+    list-style: none;
+    margin-top: 28px;
+}
+.jobaiperformancedashboard .headertitleright ul li {
+    display: inline-block;
+}
+.jobaiperformancedashboard .headertitleright .jobaiperformanceheaderselect {
+    background: #0E4C92;
+    width: 206px;
+    color: white;
+    text-align: center;
+    margin-right: 13px;
+    border-radius: 6px;
+}
+.jobaiperformancedashboard .headertitleright .jobaiperformanceheaderselect option {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 7px !important;
+}
+.jobaiperformancedashboard .headertitleright .jobaiperformanceheaderselect select {
+    padding-left: 28px;
+}
+.jobaiperformancedashboard .headertitleright .jobaiperformanceheaderselect svg {
+    color: white;
+}
+.jobaiperformancedashboard .headertitleright ul .s {
+    font-size: 18px;
+    color: #0E4C92;
+    line-height: 0px;
+    margin-right: 17px;
+}
+.jobaiperformancedashboard .headertitleright .jobaishiftbtn button {
+    width: 45px;
+    height: 27px;
+    background: #588ECB;
+    border: none;
+}
+.jobaiperformancedashboard .headertitleright .jobaishiftbtn button span {
+    width: 15px;
+    height: 15px;
+}
+.jobaiperformancedashboard .headertitleright .jobaishiftbtn button svg {
+    width: 15px;
+    color: white;
+}
+.jobaiperformancedashboard .headertitleright .jobaishiftbtn button:first-child {
+    border-top-right-radius: 0px;
+    border-top-left-radius: 17px;
+    border-bottom-left-radius: 17px;
+    border-bottom-right-radius: 0px;
+}
+
+.jobaiperformancedashboard .headertitleright .jobaishiftbtn button:last-child {
+    border-top-right-radius: 17px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 17px;
+}
+.jobaiperformancedashboard .headertitleright .jobaishiftbtn button.Mui-disabled {
+    background: #828282 !important;
+}
