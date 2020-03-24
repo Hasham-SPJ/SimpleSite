@@ -9,6 +9,13 @@ import TestScore from "../TestScore/container";
 import JobAIPerformanceDashboardHeader from "./Header/container";
 
 class JobAIPerformanceDashboard extends Component {
+    constructor(props) {
+        super(props);
+    }
+
+    componentDidMount() {
+        this.props.fetchDataIfNeeded();
+    }
     render() {
         const data =  [
               {
