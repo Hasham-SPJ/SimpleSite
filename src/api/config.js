@@ -5,11 +5,11 @@ export const BASE_URL = "http://3.134.252.39:5005/api/";
 
 
 const headers = {
-    "Content-Type": "multipart/form-data",
-    "Access-Control-Allow-Origin": "*",
-    'Access-Control-Allow-Methods' : 'GET,PUT,POST,DELETE,PATCH,OPTIONS',
-    "crossorigin": "true",
-    'Access-Control-Allow-Credentials':true
+    // "Content-Type": "multipart/form-data",
+    // "Access-Control-Allow-Origin": "*",
+    // 'Access-Control-Allow-Methods' : 'GET,PUT,POST,DELETE,PATCH,OPTIONS',
+    // "crossorigin": "true",
+    // 'Access-Control-Allow-Credentials':true
 };
 
 const instance = axios.create({
