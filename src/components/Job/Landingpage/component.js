@@ -2,11 +2,17 @@ import React, {Component} from 'react';
 import "./style.css";
 import { Button, Typography, Grid }  from '@material-ui/core';
 import JobAiBg from "../../../template.png";
+import JobAILandingPageWhyUs from "./WhyUs/container";
+import JobAILandingPageOurMission from "./OurMission/container";
+import SelectCategory from "../SelectCatagory/container";
+import JobAILandingPageWorks from "./Works/container";
+import JobAILandingPageTestimonials from "./Testimonials/container";
 
 class JobAILandingPage extends Component {
     render() {
 
         return (
+            <>
             <div className="jobailandingpage">
                 {/* <div className="jobailandingpagebg">
                     <img src={JobAiBg} ></img>
@@ -25,8 +31,16 @@ class JobAILandingPage extends Component {
                     </div>
                     </Grid>
                 </Grid>
+
+                
                 
             </div>
+            <JobAILandingPageWhyUs />
+            <JobAILandingPageOurMission />
+            <SelectCategory />
+            <JobAILandingPageWorks />
+            <JobAILandingPageTestimonials />
+        </>
         )
     }
 }

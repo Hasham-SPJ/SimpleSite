@@ -1,0 +1,26 @@
+.jobailandinworksgsection {
+    padding-top: 122px;
+    position: relative;
+    height: auto;
+    /* background-position: 85% 59%; */
+    background-repeat: no-repeat;
+    padding-bottom: 32px;
+}
+.jobailandinworksgwrapper {
+    width: 100%;
+    text-align: center;
+}
+.jobailandinworksgwrapper {
+}
+.jobailandinworksgwrapper h1 {
+    font-weight: 700;
+    font-size: 62px;
+    margin-bottom: 22px;
+    text-align: center;
+}
+.jobailandinworksgwrapper h1 span {
+    color: #397AD0;
+}
+.jobailandinworksgwrapper .workscards img {
+    width: 100%;
+}

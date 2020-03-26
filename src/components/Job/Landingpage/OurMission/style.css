@@ -1,0 +1,57 @@
+.jobailandinourmissiongsection {
+    position: relative;
+    background-image: url(../../../../ourmissionbg.png);
+    background-size: cover;
+    height: auto;
+    /* background-position: 85% 59%; */
+    background-repeat: no-repeat;
+    margin-bottom: 115px;
+}
+.jobailandinourmissiongwrapper {
+    width: 100%;
+    text-align: center;
+}
+.jobailandinourmissiongwrapper {
+}
+.jobailandinourmissiongwrapper .ourmissioncards h1 {
+    font-weight: 700;
+    font-size: 62px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.jobailandinourmissiongwrapper .ourmissioncards h1 span {
+    color: #397AD0;
+}
+.jobailandinourmissiongwrapper .ourmissioncards p {
+    color: #828282;
+    font-size: 40px;
+    margin-top: 7px;
+    margin-bottom: 0px;
+}
+.jobailandinourmissiongwrapper p span {
+    color: #0E4C92;
+    font-style: italic;
+}
+.jobailandinourmissiongwrapper .ourmissioncards {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    padding: 0px 30px 20px 30px;
+    margin-bottom: 32px;
+}
+.jobailandinourmissiongwrapper .ourmissioncards .missionquotes {
+    color: #0E4C92;
+    font-size: 160px;
+    transform: matrix(1, 0, 0, -1, -2, 46) rotate(180deg);
+}
+.jobailandinourmissiongwrapper .ourmissioncards .visionquotes {
+    color: #0E4C92;
+    font-size: 160px;
+    transform: matrix(1, 0, 0, 1, -2, 46);
+}
+.jobailandinourmissiongwrapper .ourmissioncards .paddingleft {
+    padding-left: 161px;
+}
+.jobailandinourmissiongwrapper .ourmissioncards .paddingright {
+    padding-right: 161px;
+}

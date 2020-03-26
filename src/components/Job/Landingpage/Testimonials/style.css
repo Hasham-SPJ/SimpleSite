@@ -1,0 +1,69 @@
+.jobailandintestimonialgsection {
+    position: relative;
+    background-image: url(../../../../banner-three-shape@2x.png);
+    background-size: cover;
+    height: auto;
+    /* background-position: 85% 59%; */
+    background-repeat: no-repeat;
+    padding-bottom: 200px;
+}
+.jobailandintestimonialgwrapper {
+    width: 100%;
+    text-align: center;
+}
+.jobailandintestimonialgwrapper {
+}
+.jobailandintestimonialgwrapper h1 {
+    font-weight: 700;
+    font-size: 62px;
+    margin-bottom: 0px;
+    text-align: center;
+    margin-top: 0px;
+}
+.jobailandintestimonialgwrapper h1 span {
+    color: #397AD0;
+}
+.jobailandintestimonialgwrapper p {
+    color: #828282;
+    font-size: 25px;
+    max-width: 900px;
+    margin: auto;
+    margin-top: 13px;
+}
+.jobailandintestimonialgwrapper p span {
+    color: #0E4C92;
+    font-style: italic;
+}
+.jobailandintestimonialgwrapper .whyuscards img {
+    width: 100%;
+}
+.jobailandintestimonialgwrapper .jobaicontactform span {
+    color: #397AD0;
+    font-weight: 600;
+    text-align: left;
+    display: block;
+}
+.jobailandintestimonialgwrapper .jobaicontactform h3 {
+    font-size: 42px;
+    text-align: left;
+    margin-top: 3px;
+}
+.jobailandintestimonialgwrapper .jobaicontactform {
+    padding: 10px;
+}
+.jobailandintestimonialgwrapper .jobaicontactform .jobaiformtext {
+    width: 100%;
+    margin-bottom: 13px;
+}
+.jobailandintestimonialgwrapper .jobaicontactform .jobaiformtextarea {
+    width: 100%;
+    margin-bottom: 13px;
+    height: 100px;
+}
+.jobailandintestimonialgwrapper .jobaicontactform .jobaiformtextarea input {
+    height: 72px;
+}
+.jobailandintestimonialgwrapper .jobaicontactform button {
+    border-radius: 34px;
+    margin-top: 37px;
+}
